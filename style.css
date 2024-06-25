@@ -81,14 +81,6 @@
     z-index: 1;
   }
   
-  .fix-bar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-  }
-
   .user-bar:after {
     content: "";
     display: table;
@@ -309,7 +301,6 @@
     height: 50px;
     width: 100%;
     z-index: 2;
-    position: fixed;
   }
   
   .conversation-compose div,
